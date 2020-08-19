@@ -56,7 +56,7 @@ public class WelcomeController {
 		HttpSession session = request.getSession();
 		session.removeAttribute("username");
 		session.invalidate();
-		return "Logout";
+		return "Login";
 		
 		
 	}
